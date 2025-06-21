@@ -37,6 +37,6 @@ jobs:
             pwd
             ls -al
             cd gundeep_retry
-            cp index.html /var/www/html
+            cp index.html /var/www/html/
             
     
