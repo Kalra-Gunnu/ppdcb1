@@ -20,7 +20,7 @@ jobs:
       with:
           host: ${{ secrets.EC2_INSTANCE }}
           username: ${{ secrets.EC2_USERNAME }}
-          password: ${{ secrets.SSH_KEY }}
+          key: ${{ secrets.SSH_KEY }}
           port: 22
           script: |
             whoami
