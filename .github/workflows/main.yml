@@ -1,8 +1,9 @@
 name: Deploy HTML to EC2
+
 on:
   push:
     branches:
-      -main
+      - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
